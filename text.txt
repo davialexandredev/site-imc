@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+main - #A6BC09 - Código Cor Principal
+cor2 - #B9C846
+cor3 - #7A8A07
+cor4 - #393D15
+
+[Título] - Calculadora de IMC (e peso ideal)
+
+
+A classificação do índice de massa corporal (IMC) pode ajudar a identificar problemas de obesidade ou desnutrição, em crianças, adolescentes, adultos e idosos.
+
+Além de calcular o valor de IMC, esta calculadora também indica qual o intervalo de peso ideal que deve ter para garantir uma melhor qualidade de vida.
+
+Ter um peso dentro do intervalo de peso ideal ajuda ainda a evitar o aparecimento de várias doenças crônicas, como diabetes e hipertensão.
+
+Coloque os seus dados na calculadora e descubra o seu IMC:
+
+
+[Calculadora (JavaScript);
+
+
+{SubTítulo} - Como interpretar o resultado de IMC
+
+
+Como interpretar o resultado de IMC
+
+Depois de obter se resultado de IMC, deve-se interpretar o valor da seguinte forma: 
+
+
+VALOR DE IMC        		 CLASSIFICAÇÃO
+
+                                                
+Menor que 18,5 kg/m2          Magreza
+
+18,5 a 24,9 kg/m2             Normal
+
+25 a 29,9 kg/m2               Sobrepeso
+
+30 a 34,9 kg/m2               Obesidade grau I
+
+35 a 39,9 kg/m2               Obesidade grau II
+
+Maior que 40 kg/m2            Obesidade grau III
+
+
+De acordo com o resultado de IMC também é possível prever o risco que cada pessoa tem de desenvolver doenças crônicas. Isto porque quanto maior é o valor do IMC, maior é a quantidade de gordura acumulada no corpo e maior o risco de doenças como pressão alta, diabetes e problemas cardíacos.
+
+{SubTítulo} - O que é IMC?
+
+O IMC é um parâmetro utilizado para avaliar se o peso está dentro do valor ideal para a altura. Isso significa que, a partir do resultado do IMC é possível saber se a pessoa está acima ou abaixo do peso recomendado e também diagnosticar problemas de saúde como obesidade ou desnutrição.
+
+O IMC pode ser utilizado em crianças, adolescentes, adultos ou idosos. 
+
+{SubTítulo} - Como é calculado o IMC?
+
+O IMC é calculado dividindo o peso (em kg) pela altura ao quadrado (em m), de acordo com a seguinte fórmula: IMC = peso / (altura x altura).
+
+O resultado de IMC é dado em kg/m2.
+
+
+{SubTítulo} - Por que é importante saber o IMC?
+
+Saber o IMC é importante para verificar se o peso está de acordo com a altura da pessoa, além de ser importante para saber se existe risco de desenvolver alguma doença. No caso das crianças, o IMC é importante para saber se o desenvolvimento está de acordo com o esperado.
+
+Além disso, sabendo o IMC, é possível também verificar qual o peso ideal e, assim, saber se a pessoa está acima ou abaixo do peso recomendado para a sua altura.
+
+{SubTítulo} - O IMC é a melhor forma de avaliar o peso?
+
+Apesar do IMC ser considerado fundamental para saber o estado nutricional da pessoa, é uma ferramenta que não leva em consideração muitos outros fatores que são importantes para avaliar o peso de uma pessoa.
+
+Assim, embora seja uma boa ferramenta rápida para perceber se o peso está ou não adequado, não é a melhor forma de avaliar o peso. Para isso, o ideal é consultar um médico ou nutricionista para avaliar outros fatores como a idade, nível de atividade física, composição corporal, nível de hidratação e histórico de saúde, por exemplo.
+
+{SubTítulo} - O que fazer para melhorar o IMC?
+
+Para melhorar o IMC, é importante verificar se está acima ou abaixo do peso considerado normal. Quando o IMC está na faixa de magreza, é importante consultar um nutricionista que fará uma avaliação completa, indicando um plano alimentar personalizado que priorize o ganho de peso de forma saudável.
+
+Por outro lado, quando o IMC está na faixa do sobrepeso ou da obesidade, o nutricionista pode recomendar uma alimentação com redução de calorias. Além da dieta, normalmente também se recomenda a prática de atividade física regular, que ajudará a acelerar o metabolismo e facilitar a perda de peso, o que influencia diretamente no IMC.
