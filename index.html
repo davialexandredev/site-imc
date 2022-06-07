@@ -5,21 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SuaSaúde</title>
-        <link rel="stylesheet" href="assets/style/main.css">
+        <link rel="stylesheet" href="assets/style/style.css">
     </head>
     <body>
-        <nav>
-            <div class="container">
-                <header>
-                    <h1>SuaSaúde</h1>
-                </header>
-                <ul div = 'menus'>
+        <header>
+            <nav>
+                <a class="logo" href="#">SuaSaúde</a>
+                <div class="mobile-menu">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-list">
                     <li><a href="#">Home</a></li>
+                    <li><a href="#">Coronavírus</a></li>
+                    <li><a href="#">Emargrecer</a></li>
                     <li><a href="#">Contatos</a></li>
                     <li><a href="#">Calculadora</a></li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </header>
         <main class="container">
             <article>
                     <h1>Calculadora de IMC (e peso ideal)</h1>
@@ -34,28 +39,36 @@
                     <h2>Como interpretar o resultado de IMC</h2>
                     <p>Depois de obter se resultado de IMC, deve-se interpretar o valor da seguinte forma: </p>
                     <aside>
-                        <section">
-                            <h3>Valor de IMC</h3>
-                            <ul>
-                                <li>Menor que 18,5 kg/m2</li>
-                                <li>18,5 a 24,9 kg/m2</li>
-                                <li>25 a 29,9 kg/m2</li>
-                                <li>30 a 34,9 kg/m2</li>
-                                <li>35 a 39,9 kg/m2</li>
-                                <li>Maior que 40 kg/m2</li>
-                            </ul>
-                        </section>
-                        <section>
-                            <h3>Classificação</h3>
-                            <ul>
-                                <li>Magreza</li>
-                                <li>Normal</li>
-                                <li>Sobrepeso</li>
-                                <li>Obesidade grau I</li>
-                                <li>Obesidade grau II</li>
-                                <li>Obesidade grau III</li>
-                            </ul>
-                        </section>
+                        <table>
+                            <tr>
+                                <th>VALOR DE IMC </th>
+                                <th>CLASSIFICAÇÃO</th>
+                            </tr>
+                            <tr>
+                                <td class="td-strong">Menor que 18,5 kg/m2</td>
+                                <td> Magreza</td>
+                            </tr>
+                            <tr>
+                                <td class="td-strong">18,5 a 24,9 kg/m2  </td>
+                                <td>Normal</td>
+                            </tr>
+                            <tr>
+                                <td class="td-strong">25 a 29,9 kg/m2</td>
+                                <td>Sobrepeso</td>
+                            </tr>
+                            <tr>
+                                <td class="td-strong">30 a 34,9 kg/m2 </td>
+                                <td>Obesidade grau I</td>
+                            </tr>
+                            <tr>
+                                <td class="td-strong">35 a 39,9 kg/m2  </td>
+                                <td>Obesidade grau II</td>
+                            </tr>
+                            <tr>
+                                <td class="td-strong">Maior que 40 kg/m2</td>
+                                <td>Obesidade grau III</td>
+                            </tr>
+                        </table>
                     </aside>
                     <p>De acordo com o resultado de IMC também é possível prever o risco que cada pessoa tem de desenvolver doenças crônicas. Isto porque quanto maior é o valor do IMC, maior é a quantidade de gordura acumulada no corpo e maior o risco de doenças como pressão alta, diabetes e problemas cardíacos.</p>
 
@@ -88,5 +101,6 @@
         </footer>
 
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/mobile-navbar.js"></script>
     </body>
 </html>
